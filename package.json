@@ -1,0 +1,20 @@
+{
+  "name": "cheng-wenfu.github.io",
+  "version": "1.0.0",
+  "description": "blog",
+  "main": "index.js",
+  "repository": "git@github.com:cheng-wenfu/cheng-wenfu.github.io.git",
+  "author": "Richer <chengwenfu00@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs",
+    "docs:preview": "vitepress preview docs --port 8080"
+  },
+  "devDependencies": {
+    "@mdit-vue/shared": "^0.12.0",
+    "sass": "^1.62.0",
+    "vitepress": "1.0.0-alpha.61"
+  }
+}

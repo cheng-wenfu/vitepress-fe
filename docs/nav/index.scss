@@ -1,0 +1,14 @@
+//覆盖默认样式： dist/client/theme-default/styles/vars.css
+
+.m-nav-layout {
+  --vp-layout-max-width: 1660px;
+
+  .container {
+    max-width: var(--vp-layout-max-width);
+  }
+
+  .content-container,
+  .content {
+    max-width: 100%;
+  }
+}
